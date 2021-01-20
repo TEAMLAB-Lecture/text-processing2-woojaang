@@ -81,6 +81,7 @@ def to_camel_case(underscore_str):
     
     for i in range(len(temp)):
         if temp[i] != "_":
+            global start
             start = i
             break
 
